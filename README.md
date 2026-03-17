@@ -34,9 +34,9 @@ Se vor folosi metoda de codificare discutată la curs și încrucișarea cu un s
     - $X_{i}$: valoarea corespunzătoare cromozomului în domeniul de definiție al funcției (număr real);
     - $f(X_{i})$: valoarea cromozomului, adică valoarea funcției în punctul din domeniu care corespunde acestuia.
 
-* **Probabilități de selecție** pentru fiecare cromozom: $$p_{i}=\frac{f(X_{i})}{\sum_{j}f(X_{j})}$$
+* **Probabilități de selecție** pentru fiecare cromozom: $p_{i}=\frac{f(X_{i})}{\sum_{j}f(X_{j})}$
 
-*  **Probabilități cumulate** care dau intervalele pentru selecție: $$q_{0}=0$$ $$q_{i}=\sum_{j=1}^{i}p_{j}$$ 
+*  **Probabilități cumulate** care dau intervalele pentru selecție: $q_{0}=0$ $q_{i}=\sum_{j=1}^{i}p_{j}$
 
 * **Mecanism:** Generarea unui număr aleator $u \in [0, 1)$ și determinarea intervalului $[q_{i}, q_{i+1})$ prin **căutare binară**. 
 
@@ -55,7 +55,8 @@ Se vor folosi metoda de codificare discutată la curs și încrucișarea cu un s
 
 * Pentru restul generațiilor (populațiile din etapele următoare) se va afișa doar **valoarea maximă** și **valoarea medie** a fitness-ului *(performanței)* populației:
 
-$$Max Fitness := max_{i}f(X_{i}), i \in \overline{1,\dots,n}$$
+$Max Fitness := max_{i}f(X_{i}), i \in \overline{1,\dots,n}$
 
-$$Mean Fitness := \frac{1}{n} \sum_{i = 1}^{n}{f(X_{i})}$$
+$Mean Fitness := \frac{1}{n} \sum_{i = 1}^{n}{f(X_{i})}$
+
 ---
