@@ -1,0 +1,95 @@
+{
+    "description": "examples used for testing written as json data",
+    "samples": [
+        {
+            "dimension": 20,
+            "domain": [-1, 2],
+            "funct_params": [-1, 1, 2],
+            "precision": 6,
+            "crossover_prob": 0.25,
+            "mutation_prob": 0.01,
+            "it_num": 50
+        },
+        {
+            "dimension": 30,
+            "domain": [0, 4],
+            "funct_params": [-2, 8, 10],
+            "precision": 5,
+            "crossover_prob": 0.30,
+            "mutation_prob": 0.02,
+            "it_num": 100
+        },
+        {
+            "dimension": 50,
+            "domain": [0, 3],
+            "funct_params": [-1, 4, 5],
+            "precision": 4,
+            "crossover_prob": 0.70,
+            "mutation_prob": 0.05,
+            "it_num": 200
+        },
+        {
+            "dimension": 20,
+            "domain": [1, 4],
+            "funct_params": [-3, 12, 15],
+            "precision": 6,
+            "crossover_prob": 0.25,
+            "mutation_prob": 0.01,
+            "it_num": 50
+        },
+        {
+            "dimension": 40,
+            "domain": [-1, 5],
+            "funct_params": [-0.5, 2, 6],
+            "precision": 5,
+            "crossover_prob": 0.80,
+            "mutation_prob": 0.03,
+            "it_num": 150
+        },
+        {
+            "dimension": 100,
+            "domain": [2, 4],
+            "funct_params": [-1, 6, -5],
+            "precision": 7,
+            "crossover_prob": 0.60,
+            "mutation_prob": 0.10,
+            "it_num": 300
+        },
+        {
+            "dimension": 24,
+            "domain": [-0.5, 4.5],
+            "funct_params": [-4, 16, 20],
+            "precision": 3,
+            "crossover_prob": 0.20,
+            "mutation_prob": 0.005,
+            "it_num": 75
+        },
+        {
+            "dimension": 60,
+            "domain": [0, 2],
+            "funct_params": [-10, 20, 30],
+            "precision": 6,
+            "crossover_prob": 0.90,
+            "mutation_prob": 0.01,
+            "it_num": 120
+        },
+        {
+            "dimension": 80,
+            "domain": [2, 8],
+            "funct_params": [-1, 10, -9],
+            "precision": 4,
+            "crossover_prob": 0.50,
+            "mutation_prob": 0.02,
+            "it_num": 500
+        },
+        {
+            "dimension": 10,
+            "domain": [-0.9, 4.9],
+            "funct_params": [-2.5, 10, 12.5],
+            "precision": 5,
+            "crossover_prob": 0.10,
+            "mutation_prob": 0.05,
+            "it_num": 30
+        }        
+    ]
+}
