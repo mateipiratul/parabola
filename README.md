@@ -54,6 +54,8 @@ Se vor folosi metoda de codificare discutată la curs și încrucișarea cu un s
 * Populația rezultată după mutațiile aleatoare.
 
 * Pentru restul generațiilor (populațiile din etapele următoare) se va afișa doar **valoarea maximă** și **valoarea medie** a fitness-ului *(performanței)* populației:
+
 $$Max Fitness := max_{i}f(X_{i}), i \in \overline{1,\dots,n}$$
+
 $$Mean Fitness := \frac{1}{n} \sum_{i = 1}^{n}{f(X_{i})}$$
 ---

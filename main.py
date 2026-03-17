@@ -40,6 +40,8 @@ def simulate(chrom_pop: ChromPop, i: int):
             'max_fitness': max_fit,
             'mean_fitness': sum(p[3] for p in chrom_pop.population) / chrom_pop.dimension,
             'population': current_pop_data,
+            'selected_population': [{'idx': p[0], 'bin': p[1], 'val': p[2], 'fit': p[3]} for p in selected_pop],
+            'crossed_population': [{'idx': p[0], 'bin': p[1], 'val': p[2], 'fit': p[3]} for p in crossed_pop],
             'selection_intervals': chrom_pop.intervals,
             'selection_logs': selection_logs,
             'mutation_logs': mutation_logs,
@@ -52,8 +54,8 @@ def simulate(chrom_pop: ChromPop, i: int):
 
     return sample_data
 
-def main():
-    raw_data = read_population('population_samples.json')
+def main(input_path='population_samples.json', output_path='results.json'):
+    raw_data = read_population(input_path)
     all_results = []
 
     for i, data in enumerate(raw_data):
@@ -70,7 +72,7 @@ def main():
         sample_historic = simulate(chrom_pop, i)
         all_results.append(sample_historic)
 
-    with open('results.json', 'w') as f:
+    with open(output_path, 'w') as f:
         json.dump(all_results, f, indent=2)
 
 if __name__ == "__main__":
