@@ -79,5 +79,5 @@ def write_txt_file(json_path='results.json', txt_path='evolution.txt'):
             fout.write(f"it. {str(i).ljust(3)}: {it['max_fitness']}\n")
 
 if __name__ == "__main__":
-    # write_txt_file()
+    write_txt_file()
     track_fitness_evolution()
