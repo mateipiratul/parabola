@@ -1,4 +1,4 @@
-formatted output of the first population sample from 'population_samples.json'
+formatted output of the 1st population sample from 'population_samples.json'
 
 initial population:
 1  : b = 1000111000011101111110 | x = 0.6654343605041504   | f = 2.222631472364583
