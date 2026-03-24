@@ -90,6 +90,15 @@
             "crossover_prob": 0.10,
             "mutation_prob": 0.05,
             "it_num": 30
-        }        
+        },
+        {
+            "dimension": 10,
+            "domain": [-1, 9],
+            "funct_params": [-0.5, 4, 5],
+            "precision": 6,
+            "crossover_prob": 0.25,
+            "mutation_prob": 0.01,
+            "it_num": 50
+        }   
     ]
 }
